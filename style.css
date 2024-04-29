@@ -54,6 +54,9 @@
     height: 20px;
     width: auto;
 }
+.HeaderLogo__image--pc:hover {
+    opacity: 0.75;
+}
 @media screen and (max-width: 767px) {
 .HeaderLogo__image--pc {
     display: none; }
@@ -62,6 +65,9 @@
     display: none;
     height: 16px;
     width: auto;
+}
+.HeaderLogo__image--sp:hover {
+    opacity: 0.75;
 }
 @media screen and (max-width: 767px) {
 .HeaderLogo__image--sp {
@@ -150,6 +156,9 @@ ul {
 a {
     color: #333;
     text-decoration: none;
+}
+a:hover {
+    opacity: 0.75;
 }
 @media screen and (max-width: 1080px) {
 .HeaderNavListItem__link {
